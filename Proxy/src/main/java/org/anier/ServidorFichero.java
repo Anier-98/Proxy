@@ -4,12 +4,12 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 
-  public class ServidorFicheros implements Servidor {
+  public class ServidorFichero implements Servidor {
         //nombre del servidor
         private String nombre;
         private HashMap<String, Fichero> ficheros;
         private Fichero fich;
-        public ServidorFicheros(String nombre) {
+        public ServidorFichero(String nombre) {
             this.nombre = nombre;
             ficheros = new HashMap<String, Fichero>();
         }
