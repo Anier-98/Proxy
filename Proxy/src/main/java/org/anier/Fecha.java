@@ -2,8 +2,8 @@ package org.anier;
 
 public class Fecha {
     //Clase para manejar fechas (DD/MM/AAAA)
-import java.util.*;
-    class Fecha {
+
+
         //atributos
         private int año;
         private int mes;
@@ -44,4 +44,3 @@ import java.util.*;
             this.mes = mes;
         }
     }
-}
