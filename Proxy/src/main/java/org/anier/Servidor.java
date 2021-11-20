@@ -2,7 +2,9 @@ package org.anier;
 
 public interface Servidor {
 
-    char subir(String nom);
+    String subir(String nomfich);
 
     Fichero bajar(String id);
+
+    String listado();
 }
